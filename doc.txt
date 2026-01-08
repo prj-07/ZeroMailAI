@@ -1,0 +1,13 @@
+This is a text file to cover all implementation details of the project.
+
+Actually what i want to implement is a agentic ai application in which what i want is that user should not be bothered about the mails he gets . in today's world we maintain a lot of mails . i want to build a small application in which user should not worry about his multiple mail ids , agent should check all his mails , bring him any mail which require his attention , prepare replies to mail that require his reply and inform him . 
+i want to do this using langchain / lang grpah / and  any agentic ai framworks we use in daily industry life .
+
+
+
+
+
+flow:
+
+1. initialized agent.py to store the list of message and history
+2. created auth_gmail.py to once authenticate the mail. Once we run this file ,  this will generate a token.json that will help easier access to my gmail .  
